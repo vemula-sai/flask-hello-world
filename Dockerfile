@@ -1,4 +1,4 @@
-FROM python:3.9-bullseye
+FROM python:3.9.16-slim-bullseye
 LABEL project="qtlearning"
 EXPOSE 5000
 RUN git clone https://github.com/vemula-sai/flask-hello-world.git && \
